@@ -1,0 +1,57 @@
+{
+  // Wi-Fi network configuration
+  "wifi": {
+    "networks": [
+      {
+        // SSID (name) of your Wi-Fi network
+        "ssid": "Your Wi-Fi SSID",
+        // Password for your Wi-Fi network
+        "password": "Your Wi-Fi Password"
+      },
+      {
+        // Add more Wi-Fi networks here if needed
+        "ssid": "Your Second Wi-Fi SSID",
+        "password": "Your Second Wi-Fi Password"
+      }
+    ]
+  },
+  
+  // Notion API configuration
+  "notion": {
+    // Your Notion integration token. Generated when you create an integration in Notion.
+    // The format usually starts with "secret_".
+    "api_key": "Your Notion Integration Token",
+    
+    // The ID of the database you want to connect to.
+    // You can find this in the URL when you open the database in your browser.
+    // It's a 32-character hexadecimal string.
+    "database_id": "Your Database ID",
+    
+    // If you have a "complete" status, enter its ID here.
+    "status_complete_id": "Your Complete Status ID",
+    
+    // Database property names and status values
+    "properties": {
+      // The name of the property that represents the task status in your database
+      "status_property": "Your Status Property Name",
+      // The name of the property that represents the task title
+      "title_property": "Your Title Property Name",
+      // The name of the 'To Do' status
+      "status_todo": "To Do Status Name",
+      // The name of the 'In Progress' status
+      "status_progress": "In Progress Status Name",
+      // The property ID for status updates, if you know it.
+      "status_update_property": "Your Status Update Property ID"
+    }
+  },
+  
+  // Display settings
+  "display": {
+    // Maximum number of items to display
+    "max_items": 10,
+    // Timeout in milliseconds before the display goes into sleep mode. (e.g., 180000 ms = 3 minutes)
+    "sleep_timeout": 180000,
+    // Line height of the text in pixels
+    "line_height": 65
+  }
+}
