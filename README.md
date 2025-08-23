@@ -1,5 +1,5 @@
 ### Introduction
-
+[中文](https://github.com/PixelCrafter42/NotionEinkTodo/blob/main/ReadMeCn.md)
 I love Notion and e‑ink displays. I wanted a device that could show my to‑dos at a glance, helping me stay focused on what matters most.
 
 The M5Stack Paper S3 made this idea real. A month ago I had no hands‑on experience in this area. Thanks to M5Stack’s UIFlow, I quickly built a prototype. With help from AI I iterated on the code, then rebuilt a faster, more responsive version with Arduino. The whole journey was fun and very rewarding.
